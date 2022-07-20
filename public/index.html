@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="img/portfolio.png">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">    
+</head>
+<body>
+    <a href="https://api.whatsapp.com/send?phone=+5491140896863&text=Hola" class="btn-wpp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>    
+    </a>
+    <div id="enmaquetado" class="wrapper">
+
+        <header>
+            <nav class="navbar">
+                <div id="marca" class="brand">
+                    <h2>My <span>home</span></h2>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a class="active" href="">home
+                            <i class="fa-solid fa-house"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#h2">About me
+                            <i class="fa-solid fa-face-smile"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#idProjects">Projects
+                            <i class="fa-solid fa-sheet-plastic"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#h2 2">Contact
+                            <i class="fa-solid fa-address-card"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="main">
+            <div class="info-content">
+                <h1>I'm <span id="nombre">Christian</span>Thomas</h1>
+                <p>I am a student at the UTN university and welcome to my portfolio, eager to learn and grow in the IT world to be a better developer every day</p>
+                <a download href="https://drive.google.com/uc?id=123F3SWR0gsrnA5ebOT2cy3nYPOcQxYl7&export=download">                
+                    <button id="boton_download" class="download-cv">Download Cv</button>
+                </a>
+            </div>
+            <img id="foto_borde" src="./img/imagen1.png" alt="Christian Thomas picture">            
+        </main>        
+    </div>
+
+    <div class="about">
+        <img src="./img/about.png" alt="Christian image">
+        <div class="about-info">
+            <h2 id="h2">About me</h2>
+            <div class="divider"></div>
+            <p>About me?, what can I say, I like most of the time to spend time with the computer, training, working, doing projects. I am a person who loves teamwork and I am quick to adapt to any environment, in my free time or rather leisure time I like to play video games to distract myself and have fun for a while.</p>
+            <p>What I intend to show in this portfolio are some of my projects in which I have been working thanks to certain training that this wonderful world of technology offers me, below I leave you some samples</p>
+            <button class="read_more">Read More</button>
+        </div>    
+    </div>
+
+    <div class="portfolio">
+        <div class="portfolio-headings">
+            <h2 id="idProjects">My projects portfolio</h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="container">
+
+            <div class="card">
+                <img style="width: 100%; height: 180px; background-size: cover;" src="./img/juego.png" alt="juego image">
+                <!-- <div class="card-img-1">                
+                </div>-->
+                    <div class="card_title">                        
+                        <h2>Breakout the Game in Forms C#</h2>
+                    </div>
+                    <div class="card-projects-links">
+                        <a href="https://github.com/christianthomas66" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>                        
+                        <a href="">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>                
+                <div class="button-content">
+                    <button id="contenido_boton1" class="projects-details-button download-cv">
+                        <a href="">Project details</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img style="width: 100%; height: 180px; background-size: cover;" src="./img/calcu.png" alt="calcu image">
+                <!--<div class="card-img-2">
+                </div>-->
+                    <div class="card_title">
+                        <h2>Calculator App with Javascript and Vue.js</h2>
+                    </div>
+                    <div class="card-projects-links">
+                        <a href="https://github.com/christianthomas66" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>                        
+                        <a href="">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>                
+                <div class="button-content">
+                    <button id="contenido_boton2" class="projects-details-button download-cv">
+                        <a href="">Project details</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img style="width: 100%; height: 180px; background-size: cover;" src="./img/bicis.png" alt="bicis image">
+                <!--<div class="card-img-3">
+                </div>-->
+                    <div class="card_title">
+                        <h2>Bikes factory App in Forms C#</h2>
+                    </div>
+                    <div class="card-projects-links">
+                        <a href="https://github.com/christianthomas66/tp_laboratorio_2/tree/master/RecuperatoriosTP/TP4/Formularios" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>                    
+                        <a href="">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>                
+                <div class="button-content">
+                    <button id="contenido_boton3" class="projects-details-button download-cv">
+                        <a href="">Project details</a>
+                    </button>
+                </div>
+            </div>
+                        
+                      
+        </div>
+    </div>
+        
+    <div class="contact-section">
+        <div class="contact-headings">
+            <h2 id="h2 2">Keep in touch</h2>
+            <div class="divider">                
+            </div>
+        </div>
+        <div class="container-contact">
+            <img id="facha" src="./img/facha.png" alt="Christian picture">
+            <div class="contact-form">
+                <h4>Contact me...</h4>
+                <form action="https://formsubmit.co/thomassuarezgrecco98@gmail.com" method="post" class="form">
+                    <input type="hidden" name="_template" value="table">
+                    <!--form method="post" action="enviar.php" class="form"-->
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="asunto" placeholder="Subject" required>
+
+                    <textarea name="message" placeholder="Place your message..." required></textarea>
+                    <button type="submit" class="btn-submit">Send message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer id="pie_pagina" class="footer">
+        <div class="footer-content">
+            <h2>Christian Thomas</h2>
+            <h5>Fullstack Developer</h5>
+        </div>
+        <div class="social-network">
+            <a href="https://www.instagram.com/christianthomas_98/" target="_blank">
+                <i style="color: black" class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/christian-thomas-suarez-grecco/" target="_blank">
+                <i style="color: black" class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
